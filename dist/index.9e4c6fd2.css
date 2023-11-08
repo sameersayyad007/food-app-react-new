@@ -1,0 +1,120 @@
+.headingContainer {
+  background-color: #b6a7a7;
+  border-radius: 8px;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+}
+
+.headingContainer img {
+  border-radius: 20px;
+  width: 60px;
+  height: 60px;
+  margin: 0;
+  padding: 8px;
+}
+
+.headingContainer h3 {
+  align-items: center;
+  margin-right: 1000px;
+  font-family: Poppins;
+  display: flex;
+}
+
+.headingContainer h3:hover {
+  cursor: pointer;
+  color: #7fff00;
+  transform: scale(.96);
+}
+
+.headingContainer img:hover {
+  cursor: pointer;
+  transform: scale(.96);
+}
+
+.headingContainer .navItems li {
+  cursor: pointer;
+  padding-right: 40px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  list-style: none;
+}
+
+.headingContainer .navItems li:hover {
+  color: #11742b;
+}
+
+.navItems {
+  align-items: center;
+  display: flex;
+}
+
+.appBody {
+  display: flex;
+}
+
+.searchInp {
+  background-color: #e8f1f9;
+  border: none;
+  border-radius: 5px;
+  width: 450px;
+  height: 50px;
+  margin: 10px 5px 10px 10px;
+  font-size: 22px;
+}
+
+.searchInp::placeholder {
+  font-family: Poppins;
+  font-size: 20px;
+}
+
+.searchBtn {
+  cursor: pointer;
+  background-color: #d7b486;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  margin: 10px;
+  font-family: Poppins, sans-serif;
+  font-size: 19px;
+}
+
+.rest1img {
+  border-radius: 10px;
+  width: 350px;
+  height: 250px;
+  margin: 30px;
+}
+
+.restaurantInfo {
+  font-family: Poppins;
+}
+
+.restaurantInfo h2 {
+  margin-top: -8px;
+  padding-left: 35px;
+}
+
+.restaurantInfo h3 {
+  margin-top: -15px;
+  padding-left: 35px;
+}
+
+.restaurantInfo h4 {
+  color: #989893;
+  margin-top: -15px;
+  padding-left: 35px;
+}
+
+.resBody {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.rest_card:hover {
+  cursor: pointer;
+  transform: scale(.96);
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

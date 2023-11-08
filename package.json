@@ -1,0 +1,27 @@
+{
+  "name": "react_app1_mnl",
+  "version": "1.0.0",
+  "description": "Just a react app created manually",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel index.html"
+  },
+  "author": "Sameer",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "bootstrap": "^5.3.2",
+    "parcel": "^2.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0",
+    "react-shimmer-effects": "^1.0.3"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}

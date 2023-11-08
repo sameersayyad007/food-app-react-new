@@ -1,0 +1,226 @@
+.headingContainer{
+    background-color: rgb(182, 167, 167);
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 0px;
+    height: 80px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    
+}
+.headingContainer img{
+    width: 70px;
+    height: 70px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.headingContainer h3{
+    font-family: 'Poppins';
+    margin-right: 880px;
+    align-items: center;
+    display: flex;
+    margin-top: 8px;
+    
+    }
+
+    .headingContainer h3:hover{
+        transform: scale(.96) ;
+        cursor: pointer;
+        color: chartreuse;
+    }
+
+    .headingContainer img:hover{
+        transform: scale(.96) ;
+        cursor: pointer;
+        transition-duration: 0.2 s;
+    }
+
+.headingContainer .navItems li{
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    padding-right:40px ;
+    margin-top: 10px;
+     
+}
+
+.headingContainer .navItems li:hover{
+    /* transform: scale(1.2); */
+    color: rgb(17, 116, 43);
+}
+
+.navItems{
+
+    display: flex;
+    align-items: center;
+
+}
+.appBody{
+    display: flex;
+    margin-top: 100px;
+   
+    
+}
+
+.searchInp{
+    margin: 10px;
+    margin-top: -5px;
+    width: 450px;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: none;
+    background-color: rgb(232, 241, 249);
+    font-size: 22px;
+}
+
+.searchInp::placeholder{
+    font-family: 'Poppins';
+
+    font-size: 20px;
+}
+
+.searchBtn{
+    
+    margin: 10px;
+    margin-top: -5px;
+    width: 100px;
+    height: 60px;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(215, 180, 134);
+    cursor: pointer;
+
+}
+.rest1img{
+    width: 400px;
+    height: 280px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.restaurantInfo{
+   
+    font-family: 'Poppins';
+    
+}
+
+.restaurantInfo h2{
+    margin-top: -8px;
+    padding-left: 35px;
+   
+}
+
+.restaurantInfo h3{
+    margin-top: -15px;
+    padding-left: 35px;
+    font-size: 27px;
+}
+.restaurantInfo h4{
+    margin-top: -15px;
+    padding-left: 35px;
+    color: rgb(152, 152, 147);
+    font-size: 20px;
+}
+
+.resBody{
+    
+   display: flex;
+   flex-wrap: wrap;
+  margin: 0 65px;
+  
+  
+   
+   
+}
+
+.rest_card:hover{
+    transform: scale(.96) ;
+    cursor: pointer;
+   
+}
+.link{
+    list-style: none;
+}
+
+
+.dropdown{
+    margin-top: 15px;
+}
+
+.searchBtn2{
+    margin: 10px;
+    margin-top: -5px;
+    height: 60px;
+    width: 150px;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(203, 162, 234);
+    cursor: pointer;
+
+}
+.restaurantInfo{
+    width: 400px;
+    
+}
+.restaurantInfo h3{
+    margin-bottom: 14px;
+}
+
+.accordion-title{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    width: 500px;
+    /* margin: 0 auto; */
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.accordion-icon{
+    display: flex;
+    align-items: center;
+}
+
+.accordionItem{
+    background-color: antiquewhite;
+    width: 495px;
+    border-radius: 0 3px 5px 5px;
+    margin-top: -2px;
+}
+
+.vegicon{
+    width: 30px;
+    height: 30px;
+    border: 2px solid green;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    margin-left: 200px;
+    margin-top: -35px;
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    background-color: green;
+   
+   
+    
+    border-radius: 50%;
+}
+
+.RestaurantMENU{
+   margin: 2% 0 0 40%;
+    align-items: center;
+}
